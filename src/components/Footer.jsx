@@ -13,6 +13,7 @@ const sectors = [
   { name: 'Projects', href: '/projects' },
   { name: 'Contact', href: '/contact' },
   { name: 'Resume', href: '/resume' },
+  { name: 'Admin Console', href: '/admin' },
 ];
 
 export default function Footer() {

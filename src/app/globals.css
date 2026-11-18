@@ -26,6 +26,43 @@ body {
   overflow-x: hidden;
 }
 
+/* Light theme keeps the neon accent while lifting the dark interface surfaces. */
+html[data-theme='light'] body {
+  background-color: #f3f6eb;
+  color: #172018;
+}
+
+html[data-theme='light'] [class*="bg-[#050816]"],
+html[data-theme='light'] [class*="bg-[#080D1C]"],
+html[data-theme='light'] [class*="bg-nx-bg"] {
+  background-color: #f8faF3 !important;
+}
+
+html[data-theme='light'] [class*="text-white"] {
+  color: #172018 !important;
+}
+
+html[data-theme='light'] [class*="text-[#A0A5B5]"] {
+  color: #566353 !important;
+}
+
+html[data-theme='light'] .nx-glass {
+  background: rgba(255, 255, 255, 0.86);
+  border-color: rgba(85, 115, 37, 0.24);
+  box-shadow: 0 8px 32px rgba(35, 48, 24, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+html[data-theme='light'] .nx-glass:hover {
+  border-color: rgba(85, 115, 37, 0.48);
+  box-shadow: 0 8px 40px rgba(35, 48, 24, 0.16), 0 0 20px rgba(112, 153, 42, 0.12);
+}
+
+html[data-theme='light'] .nx-grid {
+  background-image:
+    linear-gradient(to right, rgba(79, 105, 40, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(79, 105, 40, 0.07) 1px, transparent 1px);
+}
+
 ::selection {
   background: rgba(198, 255, 54, 0.25);
   color: #C6FF36;

@@ -1,5 +1,6 @@
 'use client';
 
+
 import Link from 'next/link';
 import { Briefcase, GraduationCap, Brain, Globe, Code2, ArrowRight, Zap, User } from 'lucide-react';
 import { playClickSound, playHoverSound } from '../lib/cyberSound';

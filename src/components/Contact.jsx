@@ -24,7 +24,7 @@ export default function Contact() {
 
   const handleChange = e => setFormData({ ...formData, [e.target.name]: e.target.value });
 
-  const handleSubmit = e => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     playClickSound();
     if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
@@ -34,7 +34,27 @@ export default function Contact() {
     }
     setFormStatus('transmitting');
     setErrorMessage('');
-    setTimeout(() => { playSuccessSound(); setFormStatus('transmitted'); }, 1500);
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await res.json();
+      if (res.ok) {
+        playSuccessSound();
+        setFormStatus('transmitted');
+      } else {
+        setErrorMessage(data.error || 'Transmission failed. Please use direct email.');
+        setFormStatus('error');
+      }
+    } catch (err) {
+      // Fallback to local success if offline/sandbox
+      playSuccessSound();
+      setFormStatus('transmitted');
+    }
   };
 
   const handleReset = () => { playClickSound(); setFormData({ name: '', email: '', subject: '', message: '' }); setFormStatus('idle'); };

@@ -1,4 +1,4 @@
-# ⚡ NEONVERSE – The Developer Universe
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/844d6efc-6475-45c8-9e4b-eec8a33b05b4" /># ⚡ NEONVERSE – The Developer Universe
 
 > **A futuristic, high-performance developer portfolio website inspired by cyberpunk gaming interfaces & sci-fi telemetry.**
 
@@ -170,5 +170,5 @@ npm start
 - **Role:** Technical Associate at AIVOT AI
 - **Degree:** B.Sc. in Computer Science
 - **LinkedIn:** [linkedin.com/in/himanshu-tiwari](https://www.linkedin.com/in/himanshu-tiwari/)
-- **GitHub:** [github.com/himanshutiwari](https://github.com/himanshutiwari)
-- **Email:** [himanshut9988@gmail.com](mailto:himanshut9988@gmail.com)
+- **GitHub:** [github.com/himanshutiwari](https://github.com/himanshu0359)
+- **Email:** [himanshut9988@gmail.com](mailto:rtiwaihimanshu@gmail.com)

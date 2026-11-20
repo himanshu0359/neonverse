@@ -169,6 +169,6 @@ npm start
 **Himanshu Tiwari**
 - **Role:** Technical Associate at AIVOT AI
 - **Degree:** B.Sc. in Computer Science
-- **LinkedIn:** [linkedin.com/in/himanshu-tiwari](https://www.linkedin.com/in/himanshu-tiwari/)
-- **GitHub:** [github.com/himanshutiwari](https://github.com/himanshu0359)
-- **Email:** [himanshut9988@gmail.com](mailto:rtiwaihimanshu@gmail.com)
+- **LinkedIn:** [https://www.linkedin.com/in/himanshu-r-tiwari-a21480365/](https://www.linkedin.com/in/himanshu-r-tiwari-a21480365/)
+- **GitHub:** [https://github.com/himanshu0359](https://github.com/himanshu0359)
+- **Email:** [rtiwaihimanshu@gmail.com](mailto:rtiwaihimanshu@gmail.com)
